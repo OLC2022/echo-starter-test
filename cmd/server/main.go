@@ -37,6 +37,9 @@ func main() {
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
 	})
+	e.GET("/herb", func(c echo.Context) error {
+		return c.String(http.StatusOK, "Hello, Herb!")
+	})
 	port := startup.GetPort()
 	e.Logger.Fatal(e.Start(fmt.Sprintf(":%v", port)))
 }

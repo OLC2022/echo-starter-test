@@ -22,7 +22,7 @@
                 "APPLICATION_ENVIRONMENT": "Development",
                 "PRETTY_LOG": "false",
                 "LOG_LEVEL": "info",
-                "PORT": "1323",
+                "PORT": "1111",
             },
             "args": [  ]
         },
